@@ -40,3 +40,16 @@ console.log(f);
 console.log('&&: ', d && e && f);
 console.log('||: ', d || e || f);
 console.log('!: ', !d);
+
+
+// 삼항 연산자(ternary operator)
+const g = 1 < 2;
+
+if (g) {
+    console.log("참");
+} else {
+    console.log("거짓");
+}
+
+q = (1 > 2) ? "참" : "거짓";
+console.log(q);
