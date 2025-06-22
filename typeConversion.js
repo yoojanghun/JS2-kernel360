@@ -8,10 +8,10 @@ console.log(a == b);        // 동등 연산자 (자동으로 형 변환하여 �
 
 
 // 참 같은 값(대부분)
-// true, {}, [], 0이 아닌 실수, 문자열...
+// true, {}, [], 0이 아닌 실수, 문자열... => true로 형변환해서 판단
 
 // 거짓 같은 값 (암기해라)
-// false, '', null, undefined, 0, -0, NaN(Not a number)
+// false, '', null, undefined, 0, -0, NaN(Not a number) => false로 형변환해서 판단
 if(true) {
     console.log("난 출력된다11");
 }
